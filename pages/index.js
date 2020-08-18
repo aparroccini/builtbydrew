@@ -1,9 +1,11 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
-import utilStyles from '../styles/utils.module.sass'
+import Styles from '../components/work.module.sass'
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
+import About from '../components/about'
 import Date from '../components/date'
+
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
@@ -20,28 +22,30 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
-      </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href="/posts/[id]" as={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
+      <About></About>
+      <section className={Styles.WorkListing}>
+        <div className="inner">
+        <h2>Portfolio of Work</h2>
+          <ul className={Styles.List}>
+            {allPostsData.map(({ date, id, title, thumbnail, summary, tech }) => (
+              <li key={id}>
+              <img src={thumbnail} alt={title}/>
+                <Link href="/posts/[id]" as={`/posts/${id}`}>
+                  <headline>
+                    <h3><a>{title}</a></h3>
+                  </headline>
+                  </Link>
+                  <summary>
+                    <p>{summary}</p>
+
+                  </summary>
+                  <div role="details">
+                    <small>{tech}</small>
+                  </div>
+              </li>
+            ))}
+          </ul>
+        </div>
       </section>
     </Layout>
   )

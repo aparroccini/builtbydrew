@@ -1,0 +1,108 @@
+@import '../styles/vars.module.sass'
+
+.HeaderTitle
+
+    h1
+        text-align: center
+        font-family: $title
+        @include heading2Xl
+        color: rgba(255, 255, 255, .30)
+        margin-top: 160px
+
+        @media only screen and (max-width: $lg)
+            font-size: 5em
+        
+        @media only screen and (max-width: $md)
+            font-size: 4em
+            
+
+.headerLogo
+    margin: 50px auto
+    z-index: 999
+    max-width: 90%
+
+.HeaderWrapper
+    position: relative
+    height: 600px
+
+    .headerBird1, .headerBird2
+        position: absolute
+
+    .headerBird1
+        top: 60px
+        left: 6%
+
+    .headerBird2
+        right: 5%
+        top: 160px
+
+    .Layer1, .Layer2, .Layer3, .Layer4, .Layer5
+        position: absolute !important
+        width: 100%
+
+        > div
+            width: 100%
+
+        img
+            max-width: fit-content
+            width: 100%
+            max-width: none
+
+    .Layer1
+        z-index: 100
+        height: 400px
+        overflow: visible !important
+
+        @media only screen and (max-width: $lg)
+            bottom: -200px
+
+        > div
+            bottom: 0
+
+        img
+         
+
+    .Layer2
+        z-index: 90
+        height: 549px
+        overflow: visible !important
+
+        
+
+        img
+            height: 549px
+            bottom: 120px
+
+            @media only screen and (max-width: $lg)
+                height: 200px !important
+
+    .Layer3
+        z-index: 80
+        height: 549px
+        overflow-y: visible !important
+        bottom: -300px
+
+        img
+            height: 949px !important
+
+    .Layer4
+        z-index: 70
+        height: 418px 
+
+        img
+            height: 418px !important
+
+    .Layer5
+        z-index: 50
+        height: 40px !important
+        overflow: visible !important
+
+        @media only screen and (max-width: $lg)
+            bottom: 0
+
+        img
+            height: 418px
+
+            @media only screen and (max-width: $lg)
+                height: 300px !important
+        
