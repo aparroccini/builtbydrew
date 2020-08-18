@@ -30,7 +30,7 @@ export default function Layout({ children, home }) {
           <meta name="twitter:creator" content={author} />
           <meta name="og:title" content={siteTitle} />
           <meta name="twitter:description" content="Digital Portfolio and promotional site for Drew Parroccini, an award winning software engineer living in Portland, OR" />
-          <meta name="twitter:image" content="http://localhost:3000/images/drew.jpg" />
+          <meta name="twitter:image" content="https://builtbydrew.vercel.app/images/drew.jpg" />
           <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"></link>
           <script async src="https://www.googletagmanager.com/gtag/js?id=UA-24965048-13"></script>
           <script
