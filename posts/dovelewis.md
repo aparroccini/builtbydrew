@@ -2,7 +2,7 @@
 title: 'Dove Lewis'
 date: '2018-01-01'
 # used on index page, keep it short
-summary: 'Veteranary corporate website'
+summary: 'Veterinary corporate website.'
 
 tech: 'Drupal 8'
 
@@ -15,7 +15,7 @@ cover: '/images/dl/dl_top.png'
 bottom: '/images/dl/dl_bottom.png'
 ---
 
-Dove Lewis, one of the regions leading veteranary clinics needed to replace their datess website. With a drupal 8 requirment, we created several responsive templates and adative components for them to use resulting in a modern looking website that suits their needs. 
+Dove Lewis, one of the regions leading veterinary clinics needed to replace their datess website. With a drupal 8 requirment, we created several responsive templates and adative components for them to use resulting in a modern looking website that suits their needs. 
 
 - Drupal 8
 - Staff Bios
