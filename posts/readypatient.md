@@ -2,7 +2,7 @@
 title: 'Ready Patient'
 date: '2020-01-01'
 # used on index page, keep it short
-summary: 'Information site for medical community'
+summary: 'Information site for medical community.'
 
 tech: 'React | Unslated | AEM'
 

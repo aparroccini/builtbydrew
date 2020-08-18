@@ -2,7 +2,7 @@
 title: 'Dove Lewis'
 date: '2018-01-01'
 # used on index page, keep it short
-summary: 'Veterinary corporate website'
+summary: 'Veterinary corporate website.'
 
 tech: 'Drupal 8'
 

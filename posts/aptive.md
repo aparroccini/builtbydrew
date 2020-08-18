@@ -2,7 +2,7 @@
 title: 'Aptive Environmental'
 date: '2020-01-01'
 # used on index page, keep it short
-summary: 'Corporate site for pest control company'
+summary: 'Corporate site for pest control company.'
 
 tech: 'React | Unslated | Contentful | Content Modeling'
 
