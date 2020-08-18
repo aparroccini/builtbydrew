@@ -4,7 +4,7 @@ date: '2020-01-01'
 # used on index page, keep it short
 summary: 'Corporate site for pest control company'
 
-tech: 'React | Unslated | Contentful'
+tech: 'React | Unslated | Contentful | Content Modeling'
 
 # used on index page, cap at 450px
 thumbnail: '/images/ae/ae_thumb.png' 
@@ -15,17 +15,8 @@ cover: '/images/ae/aptive_top.png'
 bottom: '/images/ae/aptive_bottom.png'
 ---
 
-We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
+Aptive was our first project using both Unslated and a headless CMS (contentful). Built with an atomic mindset. We created nearly 30 unique components to use within the website, most with a degree of animation added to them. 
 
-You can use Static Generation for many types of pages, including:
+Working closy with the visual design team, we were able to create beautiful components that were easily customizable and were easily integrated in the content model. 
 
-- Marketing pages
-- Blog posts
-- E-commerce product listings
-- Help and documentation
-
-You should ask yourself: "Can I pre-render this page **ahead** of a user's request?" If the answer is yes, then you should choose Static Generation.
-
-On the other hand, Static Generation is **not** a good idea if you cannot pre-render a page ahead of a user's request. Maybe your page shows frequently updated data, and the page content changes on every request.
-
-In that case, you can use **Server-Side Rendering**. It will be slower, but the pre-rendered page will always be up-to-date. Or you can skip pre-rendering and use client-side JavaScript to populate data.
+With this streamlined approach, we were able to hit our release date with time to spare.

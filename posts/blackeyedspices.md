@@ -15,17 +15,14 @@ cover: '/images/bes/bes_top.png'
 bottom: '/images/bes/bes_bottom.png'
 ---
 
-We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
+Black Eyed Susan Spice Company approached me looking for a simple site that fit their needs and their budget. I purchased an existing theme and built off that to include a robust e-commerce solution.
 
-You can use Static Generation for many types of pages, including:
+Features also include: 
 
 - Marketing pages
-- Blog posts
+- Comments and rating system
 - E-commerce product listings
 - Help and documentation
+- Square Integration
+- Slider Revolution
 
-You should ask yourself: "Can I pre-render this page **ahead** of a user's request?" If the answer is yes, then you should choose Static Generation.
-
-On the other hand, Static Generation is **not** a good idea if you cannot pre-render a page ahead of a user's request. Maybe your page shows frequently updated data, and the page content changes on every request.
-
-In that case, you can use **Server-Side Rendering**. It will be slower, but the pre-rendered page will always be up-to-date. Or you can skip pre-rendering and use client-side JavaScript to populate data.
