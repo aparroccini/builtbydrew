@@ -1,0 +1,79 @@
+@import '../styles/vars.module.sass'
+
+.WorkListing
+    background-color: $dark-green
+
+    h2
+        color: $white
+        @include headingL
+        margin: 0
+        padding: 2em 0
+        position: relative
+
+        &::after
+           content: ""
+           background-color: $white
+           opacity: .3
+           width: calc(100% - 225px)
+           right: 0
+           height: 1px
+           top: 71px
+           position: absolute
+           display: inline-block
+           
+    .List
+        display: flex
+        padding: 2em 0
+        flex-wrap: wrap
+        justify-content: space-between
+        margin: 0
+        list-style-type: none
+
+        li
+            width: calc(33% - 10px)
+            margin: 0
+            padding: 0 0 20px 0
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+
+            @media only screen and (max-width: $lg)
+                width: calc(50% - 10px)
+            
+            @media only screen and (max-width: $md)
+                width: 100%
+                display: block
+
+                img
+                    max-width: auto
+                    width: 100%
+
+            headline
+                h3
+                    margin-bottom: 0
+                    font-family: $title
+
+                a
+                    @include hover
+                    font-weight: 800
+                    color: $red
+                    text-decoration: none
+                    font-family: $title
+
+                    &::after
+                        background-color: $top-blue
+                        display: block
+            summary
+                p
+                    color: $white
+                    margin: 20px 0 0 0
+                    font-size: .9em
+
+            div
+                border-top: 1px solid rgba(255, 255, 255, .1)
+                color: $white
+                font-size: .8em
+                margin: 20px 0
+                padding-top: 10px
+                font-style: italic
+

@@ -1,6 +1,18 @@
 ---
-title: 'When to Use Static Generation v.s. Server-side Rendering'
-date: '2020-01-02'
+title: 'Pacificorp Disaster Inranet'
+date: '2020-01-01'
+# used on index page, keep it short
+summary: 'Stand alone disaster site for employees/contractors.'
+
+tech: 'Angular 8 | Contentful | SCSS | Mongo | Lambda'
+
+# used on index page, cap at 450px
+thumbnail: '/images/pcd/pcd_thumb.png' 
+
+# used on detail page, cap at 1400px
+cover: '/images/pcd/pcd_top.png'
+
+bottom: '/images/pc/pcd_bottom.png'
 ---
 
 We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.

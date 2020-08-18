@@ -1,0 +1,41 @@
+@import '../styles/vars.module.sass'
+
+.AboutWrapper
+    background-color: $red
+    padding-bottom: 2em
+
+    .ParallaxHeight
+
+        @media only screen and (max-width: $lg)
+            height: 400px !important
+
+    h2
+        @include headingL
+        margin-top: 0
+
+    h2, p
+        color: $white
+
+    .ContactList
+        display: flex
+        list-style: none
+        align-items: flex-end
+        flex-direction: row
+        justify-content: space-between
+
+        li
+            width: 25px
+            margin: 0 10px
+
+            &:nth-child(2)
+                width: 35px
+
+            a
+                @include hover
+
+                &::after
+                    background-color: $white
+
+.headerHomeImage
+    width: 100%
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 79%)

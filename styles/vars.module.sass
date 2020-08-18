@@ -1,0 +1,83 @@
+// sizing variables
+
+$max-width: 75rem
+
+// global colors
+
+$red: #FF442E
+$white: #FDFFFC
+$dark-green: #1C2321
+$yellow: #F0C808
+
+// header gradient colors
+
+$top-blue: #658A90
+$top-tan: #CDCEBB
+$top-mid:#ABB5AB
+
+// gradient stops
+
+$header-grad: $top-blue 0%,$top-blue 10%,$top-mid 25%,$top-mid 39%,$top-tan 79%,$top-tan 100% 
+
+// gradient mixin
+@mixin gradient($direction, $list)
+  background: -webkit-linear-gradient($direction, $list)
+  background: -moz-linear-gradient($direction, $list)
+  background: -o-linear-gradient($direction, $list)
+  background: linear-gradient($direction, $list)
+
+// typeface
+
+$body: 'Roboto', sans-serif
+$title: 'Roboto Condensed', sans-serif
+
+// heading mixins
+
+@mixin heading2Xl
+  font-size: 9rem
+  line-height: 1
+  font-weight: 800
+  letter-spacing: -0.05rem
+
+@mixin headingL
+  font-size: 1.5rem
+  line-height: 1.4
+  margin: 1rem 0
+
+@mixin heading
+  font-size: 1rem
+  line-height: 1.2
+  margin: 1rem 0
+  
+// media queries example: @media only screen and (max-width: $lg)
+
+$xl: 1100px
+$lg: 950px
+$md: 768px
+$sm: 600px
+
+// animation variable
+
+$animate: all 0.2s ease-in-out
+
+// animation mixin 
+
+@mixin hover
+  position: relative
+  display: block
+  cursor: pointer
+
+  &::after
+    position: absolute
+    content: " "
+    width: 0px
+    height: 1px
+    bottom: -8px
+    transition: $animate
+    transition-duration: 0.75s
+
+  &:hover
+    &::after
+      width: 100%
+      transition: $animate
+      transition-duration: 0.75s

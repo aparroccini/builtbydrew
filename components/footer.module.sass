@@ -1,0 +1,50 @@
+@import '../styles/vars.module.sass'
+
+.Footer
+    background-color: $dark-green
+    padding: 2em 0
+
+    ul
+        display: flex
+        flex-direction: row
+        justify-content: center
+        list-style: none
+        padding: 0
+
+        li
+            padding: 0 2%
+            color: $white
+            position: relative
+            font-size: .8em
+
+            a
+                @include hover
+                text-decoration: none
+                display: inline-block
+                color: $white
+                
+
+                &::after
+                    background-color: $white
+                    display: block
+
+                &:first-of-type
+                    padding-right: 10px
+
+                &:last-of-type
+                    padding-left: 10px
+
+            &:after 
+                content: " | "
+                display: block
+                position: absolute
+                top: 0
+                right: 0
+
+                
+            &:last-of-type
+                
+                &::after
+                    content: ""
+
+
