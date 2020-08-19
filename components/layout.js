@@ -44,7 +44,7 @@ export default function Layout({ children, home }) {
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
                     gtag('js', new Date());
-                    gtag('config', '[Tracking ID]');
+                    gtag('config', 'UA-24965048-13');
                 `,
             }}
           />
