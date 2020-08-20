@@ -1,6 +1,7 @@
 import styles from './header.module.sass'
 import React from 'react';
 import { Parallax, Background } from 'react-parallax';
+import Link from 'next/link'
 
 const siteTitle = 'BUILTBYDREW'
 
@@ -47,11 +48,11 @@ const Header = () => (
 
         
     </div>
-    <img
+    <Link href="/"><img
          src="/images/logo-full.svg"
          className={`${styles.headerLogo}`}
          alt={siteTitle}
-      />
+      /></Link>
        
     </>
 );
