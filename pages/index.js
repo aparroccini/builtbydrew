@@ -4,7 +4,6 @@ import Styles from '../components/work.module.sass'
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import About from '../components/about'
-import Date from '../components/date'
 
 
 export async function getStaticProps() {
