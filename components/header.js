@@ -33,14 +33,14 @@ const Header = () => (
         </Parallax>
         <Parallax
             bgImage={'/images/layer-2.svg'}
-            strength={-150}
+            strength={-175}
             className={styles.Layer2}>
             <p>&nbsp;</p>
         </Parallax>
         
         <Parallax
             bgImage={'/images/layer-5.svg'}
-            strength={-300}
+            strength={-200}
             className={styles.Layer5}>
             <p>&nbsp;</p>
         </Parallax>
