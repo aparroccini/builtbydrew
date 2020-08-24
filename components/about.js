@@ -20,7 +20,7 @@ const About = () => (
             <p>Lets chat sometime!</p>
             <ul className={styles.ContactList}>
                <li>
-                  <a className="hover-1" href="mailto:aparroccini@gmail.com"><img
+                  <a className="hover-1" href="mailto:me@builtbydrew.com"><img
                      src="/images/email.svg"
                      alt="email link"
                   /></a>
