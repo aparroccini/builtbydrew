@@ -1,5 +1,5 @@
 ---
-title: 'Pacificorp'
+title: 'Pacificorp Website Suite'
 date: '2020-01-01'
 # used on index page, keep it short
 summary: 'Self-service residential web portal for energy company.'
