@@ -7,12 +7,12 @@ summary: 'Corporate site for pest control company.'
 tech: 'React | Unslated | Contentful | Content Modeling'
 
 # used on index page, cap at 450px
-thumbnail: '/images/ae/ae_thumb.png' 
+thumbnail: '/images/ae/ae_thumb.webp' 
 
 # used on detail page, cap at 1400px
-cover: '/images/ae/aptive_top.png'
+cover: '/images/ae/aptive_top.webp'
 
-bottom: '/images/ae/aptive_bottom.png'
+bottom: '/images/ae/aptive_bottom.webp'
 ---
 
 Aptive was our first project using both Unslated and a headless CMS (contentful). Built with an atomic mindset. We created nearly 30 unique components to use within the website, most with a degree of animation added to them. 
