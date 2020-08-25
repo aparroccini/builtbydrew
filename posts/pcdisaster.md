@@ -7,12 +7,12 @@ summary: 'Stand alone disaster site for employees/contractors.'
 tech: 'Angular 8 | Contentful | SCSS | Mongo | Lambda'
 
 # used on index page, cap at 450px
-thumbnail: '/images/pcd/pcd_thumb.png' 
+thumbnail: '/images/pcd/pcd_thumb.webp' 
 
 # used on detail page, cap at 1400px
-cover: '/images/pcd/pcd_top.png'
+cover: '/images/pcd/pcd_top.webp'
 
-bottom: '/images/pcd/pcd_bottom.png'
+bottom: '/images/pcd/pcd_bottom.webp'
 ---
 
 Pacificorp needed to create an internal site to use in case of a disaster (such as covid) that could be stood up quickly and perform under stressful network conditions. 

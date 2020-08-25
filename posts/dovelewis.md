@@ -7,12 +7,12 @@ summary: 'Veterinary corporate website.'
 tech: 'Drupal 8'
 
 # used on index page, cap at 450px
-thumbnail: '/images/dl/dl_thumb.png' 
+thumbnail: '/images/dl/dl_thumb.webp' 
 
 # used on detail page, cap at 1400px
-cover: '/images/dl/dl_top.png'
+cover: '/images/dl/dl_top.webp'
 
-bottom: '/images/dl/dl_bottom.png'
+bottom: '/images/dl/dl_bottom.webp'
 ---
 
 Dove Lewis, one of the regions leading veterinary clinics needed to replace their datess website. With a drupal 8 requirment, we created several responsive templates and adative components for them to use resulting in a modern looking website that suits their needs. 
