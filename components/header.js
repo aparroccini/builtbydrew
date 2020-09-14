@@ -28,7 +28,7 @@ const Header = () => (
         <Parallax strength={1} className={styles.Layer1}>
             <div>&nbsp;</div>
             <Background className="custom-bg">
-                <img src="/images/layer-1.svg" alt="fill murray" />
+                <img src="/images/layer-1.svg" alt="Mountain range front layer" />
             </Background>
         </Parallax>
         <Parallax

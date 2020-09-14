@@ -3,6 +3,7 @@ import styles from './layout.module.sass'
 import Link from 'next/link'
 import Header from './header'
 import Footer from './footer'
+import React from 'react'
 
 const name = 'BUILTBYDREW'
 const author = 'Drew Parroccini'
